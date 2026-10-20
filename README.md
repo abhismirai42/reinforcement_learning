@@ -13,3 +13,8 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 # Install dependencies
 uv sync
 ```
+
+## Environments and Methods
+
+- **[Frozen Lake](00_frozen_lake/)**
+  - [Value Iteration](00_frozen_lake/01_value_iteration.ipynb)
