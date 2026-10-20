@@ -1,4 +1,11 @@
-### run as sudo because using keyboard lib
+"""Play Pendulum-v1 using the keyboard.
+
+Swing the pendulum up and balance it at the top to see how hard the task is.
+Controls: LEFT / RIGHT arrow keys apply torque, 'q' quits.
+
+Usage (needs root because the `keyboard` library reads raw key events on Linux):
+    sudo .venv/bin/python 01_pendulum/00_play.py
+"""
 import gymnasium as gym
 import keyboard
 import numpy as np
