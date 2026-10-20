@@ -4,4 +4,12 @@ Let's learn RL!
 
 ## Installation
 
-Create a Conda environment and install Gymnasium and its environments using `pip`.
+This project uses [uv](https://docs.astral.sh/uv/) to manage Python and its dependencies.
+
+```bash
+# Install uv
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Install dependencies
+uv sync
+```
